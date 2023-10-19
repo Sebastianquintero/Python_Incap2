@@ -17,12 +17,14 @@ costof=300000
 masd3h1=int(input("Cuantos kilometros Recorrio? : "))
 if masd3h1 <=300:
     print("El Monto a Pagar es de: ",costof)
+    print("Impuesto del 20% de iva: ",costof*0.20 )
+    print("Monto Total A Cancelar: ",costof+(costof*0.20))
 elif masd3h1 >=301 or masd3h1 <=1000:
     kmadi=int(input("Cuantos Kilometros Adicionales Recorrio: " ))
-    print("El Monto a Pagar es de : ",(costof),"+",15000*kmadi)
+    print("El Monto a Pagar es de : ",costof+15000*kmadi)
 elif masd3h1 >1000:
     kmadi=int(input("Cuantos Kilometros Adicionales Recorrio: " ))
-    print("El Monto a Pagar es de : ",(costof),"+",10000*kmadi)
+    print("El Monto a Pagar es de : ",costof+10000*kmadi)
 else:
     print("El Valor Ingresado No Corresponde Al Pedido")
 
