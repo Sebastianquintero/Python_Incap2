@@ -1,4 +1,5 @@
 """
+Ejercicio 4
 Realizar un programa que lea 10 numero enteros y luego muestre cuantos valores ingresados
 fueron multiplos de 3 y cuatos de 5
 """

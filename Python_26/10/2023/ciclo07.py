@@ -1,4 +1,5 @@
 """
+Ejercicio 2
 realizar un programa que calcule el area de 5 circulos, si area= 2*pi*radio*radio
 """
 import math

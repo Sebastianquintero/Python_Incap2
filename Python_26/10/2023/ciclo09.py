@@ -1,4 +1,5 @@
 """
+Ejercicio 3
 Realizar un programa ue solicite por teclado 10 notas de alumnos y nos informe cuantos tienen notas mayores o iguales
 a 3.5 y cuantos menores
 """

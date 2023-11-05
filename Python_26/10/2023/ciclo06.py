@@ -1,4 +1,5 @@
 """
+
 Realizar un programa capture una determinada cantidad de numeros y los muestre por pantalla, finaliza hasta
 que el usuario digite 0
 """
